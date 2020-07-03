@@ -1,0 +1,371 @@
+/* Reset CSS (JANGAN DIHAPUS) */
+html,
+body,
+ul,
+ol,
+li,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+
+    /*~~~~ Header ~~~~*/
+
+div {
+    margin: 0;
+    padding: 0;
+}
+body {
+    font-family: "Lucida Grande";
+      margin: 0;
+}
+li {
+    list-style: none;
+}
+a {
+    text-decoration: none;
+}
+header {
+    background-color: rgba(72, 202, 228, 1);
+    height: 80px;
+    width: 100%;
+    position: fixed;
+    top: 0;
+    z-index: 10;
+}
+.header-left {
+    float: left;
+    height: 80px;
+}
+.logo {
+    height: 75px;
+    margin-top: 5px;
+    margin-left: 15px;
+}
+.header-center {
+
+  height: 38px;
+  float: right;
+  margin: 30px 0;
+  margin-left: 10px;
+}
+.header-right {
+  float: right;
+  margin-right: -15px;
+}
+
+.header-right a {
+  line-height: 75px;
+  padding: 0 25px;
+  color: white;
+  display: block;
+  float: left;
+  transition: all 0.5s;
+}
+
+.header-right a:hover {
+  background-color: rgba(255, 255, 255, 0.3);
+}
+
+.extra {
+    float: right;
+    background-color: rgba(255, 255, 255, 0.3);
+    transition: all 0.5s;
+    margin-top: 10px;
+    display: none;
+}
+
+.extra:hover {
+    background-color: rgba(255, 255, 255, 0.5);
+}
+
+.extra a {
+    line-height: 80px;
+    padding: 0 25px;
+    color: #00b4d8;
+    display: block;
+}
+.dropbtn {
+    background-color: #00b4d8;
+    padding: 8px;
+    font-size: 8px;
+    border: none;
+    cursor: pointer;
+}
+
+.dropbtn div {
+    width: 35px;
+    height: 5px;
+    background-color: black;
+    margin: 6px 0;
+}
+
+.dropdown {
+    position: relative;
+    display: inline-block;
+}
+
+.dropdown-content {
+    display: none;
+    position: absolute;
+    right: 0;
+    background-color: #caf0f8;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+    z-index: 1;
+}
+
+.dropdown-content a {
+    color: black;
+    padding: 6px 8px;
+    text-decoration: none;
+    display: block;
+}
+
+.dropdown-content a:hover {background-color: #ade8f4;}
+.dropdown:hover .dropdown-content {display: block;}
+.dropdown:hover .dropbtn {background-color: #0077b6;}
+
+    /*~~~~ Main ~~~~*/
+
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+body{
+    margin:0;
+    padding: 0;
+    font-family: 'Roboto', sans-serif;
+}
+/* pengaturan layour awal */
+main{
+    padding: 50px;
+    overflow: auto;
+}
+h3{
+    color: #3D6277;
+}
+.content-text{
+    color: #657b9b;
+}
+h4{
+    font-size: 28px;
+    margin-top: 20px;
+    margin-bottom: 0;
+    color: #37464A;
+    padding: 0 10px 10px 10px;
+}
+/* content 1 */
+.container{
+    height: 250px;
+    max-width: 1170px;
+    padding: 0 15px;
+    margin: 0 auto;
+    width: 100%;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    border-radius: 5px;
+    margin-bottom: 100px;
+    margin-top: 100px;
+}
+.content-list{
+    width: 33.33%;
+    float: left;
+}
+.content-logo {
+    text-align: center;
+    padding: 20px;
+}
+.content-logo p {
+    font-size: 12px;
+    line-height: 15px;
+}
+/* content icon button */
+.btn{
+    border: 2px gray solid;
+    padding: 20px;
+    display: inline-block;
+    text-align: center;
+    border-radius: 12px;
+    cursor: pointer;
+    border: none;
+}
+.courses{
+    display: block;
+}
+/* content2 */
+.clip-title{
+    float: left;
+    display: block;
+    margin-right: 10px;
+}
+.privat-title{
+    position: relative;
+    text-align: left;
+    font-size: 23px;
+}
+.clear {
+  clear: left;
+}
+.card{
+    /* box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2); */
+    border-radius: 5px;
+    padding-bottom: 20px;
+    display: block;
+    width: 29%;
+    float: left;
+    margin: 20px;
+}
+
+.card-text{
+    font-size: 15px;
+    line-height: 25px;
+    text-align: left;
+    padding: 10px;
+    color: #666666;
+}
+.card-btn{
+    font-size: 12px;
+    text-align: center;
+    color: #9c9c9c;
+}
+
+.btn-simpan{
+    padding:12px 30px;
+    background-color: white;
+    color: black;
+    border: 2px solid #666666;
+    border-radius: 10px;
+    margin-top: 30px;
+    box-shadow: 0 7px #333999;
+}
+.a{
+  margin-left: 120px;
+}
+.b{
+  margin-left: 120px;
+  margin-top: 50px;
+}
+.c{
+  margin-left: 120px;
+  margin-top: 50px;
+}
+.btn-simpan:hover{
+    background-color: #e7e7e7;
+}
+.btn-simpan:active{
+  box-shadow: none;
+  position: relative;
+  top: 7px;
+
+}
+
+    /*~~~~ Main2 ~~~~*/
+.containers{
+    height: auto;
+    width: auto;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    border-radius: 7px;
+    margin-bottom: 100px;
+    font-size: 15px;
+    line-height: 25px;
+    padding: 10px;
+    color: #666666;
+}
+
+input {
+    box-shadow: 0 4px 8px 0 rgba(80, 76, 76, 0.2);
+}
+
+    /*~~~~ Footer ~~~~*/
+footer {
+    background-color: rgba(72, 202, 228, 1);
+
+
+    width: 100%;
+}
+
+.footer {
+    background-color: floralwhite;
+    width: auto;
+    color: dimgrey;
+    text-align: center;
+    margin-left: auto;
+    padding-left: auto;
+    border-top:1.5px solid grey;
+    padding-top: 2px;
+}
+.footer li{
+    list-style: none;
+
+}
+.about_us{
+    font-weight: bold;
+    font-size: 28px;
+    line-height: 8px;
+    padding:1px;
+    text-align: left;
+    margin-left: 10px;
+    padding-top: 0.5px;
+    width: 25%;
+    float: left;
+    margin-top: 10px;
+}
+
+.Perusahaan {
+    margin-top: 20px;
+    margin-bottom: 30px;
+}
+
+.about_us_menu {
+    font-size: 14px;
+    line-height: 27px;
+    font-weight: normal;
+
+}
+
+.Program-title {
+    margin-top: 20px;
+    margin-bottom: 30px;
+}
+
+.Program {
+  font-weight: bold;
+  font-size: 28px;
+  line-height: 8px;
+  padding:1px;
+  text-align: left;
+  margin-left: 10px;
+  padding-top: 0.5px;
+  width: 25%;
+  float: left;
+  margin-top: 10px;
+}
+
+.Program_menu {
+    font-size: 14px;
+    line-height: 27px;
+    font-weight: normal;
+}
+.Support {
+  font-weight: bold;
+  font-size: 28px;
+  line-height: 8px;
+  padding:1px;
+  text-align: left;
+  margin-left: 10px;
+  padding-top: 0.5px;
+  width: 25%;
+  float: left;
+  margin-top: 10px;
+}
+
+.Support-title {
+    margin-top: 20px;
+    margin-bottom: 30px;
+}
+
+.Support_menu {
+    font-size: 14px;
+    line-height: 27px;
+    font-weight: normal;
+}

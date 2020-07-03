@@ -1,0 +1,39 @@
+/* Untuk Tablet */
+@media all and (max-width: 1000px) {
+
+
+/* Untuk Smartphone */
+@media all and (max-width: 670px) {
+
+  .header-right{
+    display:  none;
+  }
+  .extra{
+    display:  block;
+  }
+  footer {
+    text-align: center;
+
+  }
+  .Menu{
+    width: 100%;
+    text-align: center;
+  }
+  .card{
+    width: 100%;
+  }
+.Support-title{
+    font-size:20px ;
+  }
+  .Program-title{
+    font-size:20px ;
+  }
+  .Perusahaan{
+    font-size:20px ;
+  }
+  .footer-logo{
+    padding-left: auto;
+  }
+  /* Tambahkan CSS untuk header-right */
+
+  /* Tambahkan CSS untuk menu-icon */
